@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1500');
+            background-size: cover;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .content-section {
+            padding: 40px 0;
+        }
+        .habit-item {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid #e60000;
+        }
+        .card-custom {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-custom .card-body {
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+        .card-header-custom {
+            background-color: #e60000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .list-group-item {
+            font-weight: bold;
+            background-color: #1c1c1c;
+            color: #fff;
+            border: none;
+        }
+        .btn-primary {
+            background-color: #e60000;
+            border: none;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #b30000;
+        }
+        /* Ensure responsiveness */
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2.5rem;
+            }
+            .content-section {
+                padding: 20px;
+            }
+            .card-header-custom {
+                font-size: 1.25rem;
+            }
+            .card-body p {
+                font-size: 0.9rem;
+            }
+        }
+        @media (max-width: 576px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            .content-section {
+                padding: 15px;
+            }
+            .card-header-custom {
+                font-size: 1rem;
+            }
+            .card-body p {
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <h1>Welcome to The Medford Real Estate Team</h1>
+        <p>Powered by PLACE, we help our agents achieve a higher quality of life through wealth building, time mastery, and leverage.</p>
+    </div>
+</section>
+
+<!-- Intro Video Section -->
+<section class="content-section bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2><i class="fas fa-info-circle"></i> Introduction to MRET</h2>
+                <p>Watch this video to get an overview of our training program and the opportunities we offer.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/I2SeBj6R-mc?si=1oN7bG5fwzUmW6_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2><i class="fas fa-book-open"></i> About Our Training Program</h2>
+                <p>At MRET, we are committed to providing a solid support system for our agents to succeed in the real estate industry. Our training manual requires agents to engage in practical tasks to demonstrate their understanding and knowledge of the concepts taught. We focus on habits that drive success, lead generation, and wealth-building strategies.</p>
+                <p>When you start off in real estate, it is much like a plane during takeoff: you would think the pilot was crazy if they didn’t give it full throttle. You must give it 100 PERCENT FULL THROTTLE to get it off the ground. The gas in real estate is LEAD GENERATION, whether you call on the phone, knock on doors, attend networking meetings, or conduct open houses. You MUST do it daily to make the money you choose to make, and we're here to support you along your career journey.</p>
+                <p>Most agents get into real estate for wealth, flexibility, and freedom. Remember, wealth doesn’t come without discipline, and discipline creates the habits that will give you freedom.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <div class="card-header card-header-custom"><i class="fas fa-star"></i> Top Agent Habits
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Host 4 Open Houses Monthly</li>
+                            <li class="list-group-item">Prospect 10-15 Hours Weekly</li>
+                            <li class="list-group-item">Daily Lead Management in CRM</li>
+                            <li class="list-group-item">Attend Business Meetings</li>
+                            <li class="list-group-item">Commit to Script Practice</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Habits of High Performing Agents -->
+<section class="content-section">
+    <div class="container">
+        <h2><i class="fas fa-trophy"></i> Habits of High Performing Agents</h2>
+        <div class="habit-item">
+            <h5><i class="fas fa-door-open"></i> Open Houses</h5>
+            <p>A minimum of 4 open houses per month (given market conditions).</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-phone-alt"></i> Lead Generation</h5>
+            <p>Prospect for 10-15 hours weekly, practice scripts for 1 1/2 hours weekly, and respond to incoming leads within 5 minutes.</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-tasks"></i> Lead Management</h5>
+            <p>All contacts should be entered into the team CRM, Brivity, and consistently followed up per team guidelines. Submit a daily numbers report to Carl.</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-calendar-alt"></i> Meetings & Events</h5>
+            <ul>
+                <li>Daily Team Power Ups (M-Th 8:30-9:00am)</li>
+                <li>Monthly Power Session - 1st Tuesday</li>
+                <li>Monthly Training Session - 3rd Tuesday</li>
+                <li>Agent Launch through PLACE (12-week commitment)</li>
+                <li>Friday PLACE Partner Calls - 8:00am PST</li>
+                <li>PLACE National Inventory Creation Days</li>
+                <li>Yearly Strategic Planning sessions and team events</li>
+            </ul>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-chart-line"></i> Production Metrics</h5>
+            <p>Team members are expected to close a minimum of 12 transactions in Year 1, 20 or more in Year 2, and 30 or more in Year 3.</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-database"></i> Databank Procedures</h5>
+            <p>It is anticipated that each team member has a minimum of 200 contacts in their database in order to participate in agent launch through PLACE. All leads generated and/or provided must be immediately entered into Brivity and contacted consistently.</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-user-check"></i> Accountability</h5>
+            <p>One-on-one accountability sessions with TL or Accountability Leader. Commit to cooperating with the Admin Support Team on agent-specific tasks in a timely fashion.</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-users"></i> Culture</h5>
+            <p>Commit to upholding & living in the culture of the team’s Mission, Vision & Values. Show up, participate, and contribute to the team's success.</p>
+        </div>
+        <div class="habit-item">
+            <h5><i class="fas fa-seedling"></i> Growth Commitment</h5>
+            <ul>
+                <li>Open House Certification</li>
+                <li>Listing Experience Certification</li>
+                <li>Buying Experience Certification</li>
+                <li>Prospecting Certification</li>
+                <li>Sphere in Gear Certification</li>
+                <li>PLACE National Inventory Creation Days Participation</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Agent Onboarding Process Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2><i class="fas fa-rocket"></i> Agent Onboarding Process</h2>
+                <p>Welcome to the Medford Real Estate Team (MRET)! Our 90-day onboarding process is designed to set you up for a successful career in real estate. During this period, you will be given structured tasks, training sessions, and valuable activities that provide a solid foundation for your future success.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <div class="card-header card-header-custom text-center">
+                        <h4><i class="fas fa-calendar-day"></i> First 30 Days</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>In the first 30 days, you'll focus on understanding real estate fundamentals. You'll be introduced to lead generation, CRM tools, and open house basics. This period is about getting acquainted with core activities and building confidence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <div class="card-header card-header-custom text-center">
+                        <h4><i class="fas fa-calendar-week"></i> Next 30 Days</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>In the next 30 days, you will deepen your skills in prospecting and lead management. You'll practice scripts, attend team meetings, and start managing your own leads. This is where you'll start seeing the fruits of your efforts in action.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-custom">
+                    <div class="card-header card-header-custom text-center">
+                        <h4><i class="fas fa-calendar-check"></i> Final 30 Days</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>The final 30 days are all about mastering your craft. You'll be given more autonomy to host open houses, close transactions, and contribute meaningfully to the team. By the end of this phase, you'll be ready to operate confidently as a MRET agent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <h4><i class="fas fa-portal-enter"></i> AGENTFLOW Portal</h4>
+                <p>All onboarding tasks are managed through <strong>AGENTFLOW</strong>, our dedicated onboarding platform. AGENTFLOW helps you track your progress, complete tasks, and stay informed at every step of your journey.</p>
+                <a href="https://agentflow.medfordteam.com" class="btn btn-primary mt-3" target="_blank">Access AGENTFLOW</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <div class="container">
+        <h2><i class="fas fa-headset"></i> Contact & Support</h2>
+        <p>If you have any questions or need any additional resources, please do not hesitate to call, email, or stop by. We are here to help you achieve your goals.</p>
+        <a href="https://www.themedfordteam.com/connect" class="btn btn-primary" target="_blank">Get In Touch</a>
+        <div style="margin-top: 20px;"></div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Example JavaScript for interactivity (optional)
+    $(document).ready(function() {
+        $('.btn-primary').click(function() {
+            alert('Thank you for reaching out! Our support team will be in touch shortly.');
+        });
+    });
+</script>
+
+</body>
+</html>
